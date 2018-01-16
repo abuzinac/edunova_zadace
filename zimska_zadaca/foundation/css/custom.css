@@ -1,0 +1,145 @@
+#about {
+    min-height: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.jumbo {
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 175px 0;
+    margin-bottom: 30px;
+    height: 100%;
+}
+
+.jumbo h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 28%;
+    margin-bottom: 15px;
+}
+
+.contain-to-grid, .top-bar {
+    background: #eaeaea;
+}
+
+.name {
+    background: #5a9aa8;
+    padding: 5px 30px;
+    height: 60px !important;
+}
+
+.top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button) {
+    background: none;
+
+}
+
+.top-bar-section li:not(.has-form) a:hover:not(.button) {
+    background: #5A9AA8;
+    text-decoration: none;
+    color: #1a1a1a;
+
+}
+
+.top-bar-section ul li > a {
+    color: #1a1a1a;
+}
+
+.active {
+
+}
+
+.row:before {
+    display: block;
+    content: " ";
+    margin-top: -90px;
+    height: 90px;
+    visibility: hidden;
+
+}
+
+section {
+    padding-bottom: 150px;
+}
+
+#contact {
+    background: #fff;
+    padding-bottom: 30px;
+}
+
+#contact li > ul > li {
+    padding: 5px 0;
+}
+
+.copy {
+    background: #737373;
+    padding: 10px 0;
+}
+
+.copy p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.copy a {
+    color: #fff;
+}
+
+ul, ol, dl {
+    list-style: none;
+}
+
+.th {
+    border: none;
+}
+
+#portfolio {
+    background-image: url(../img/port_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#portfolio h2, h4 {
+    color: #fff;
+    text-align: center;
+}
+
+#portfolio h4 {
+    margin-bottom: 30px;
+}
+
+#portfolio img, #about img {
+    display: block;
+    margin: 0 auto;
+}
+
+li.active:not(.has-form) a:not(.button) {
+    padding: 0 15px;
+    line-height: 45px;
+    color: white;
+    background: #5a9aa8;
+}
+
+img {
+    height: 200px;
+    width: 400px;
+}
+
+button, .button {
+    background-color: #5a9aa8;
+    font-size: 20px;
+}
+
+.onama {
+    margin-top: 0;
+}
+
+.login {
+    position: absolute;
+}
+
+
+

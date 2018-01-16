@@ -1,0 +1,13 @@
+.top-bar, .top-bar ul{
+    background-color: lightblue;
+}
+
+#logo {
+	height: 50px;
+	width: 160px;
+}
+
+.sadrzaj{
+	padding: 10px;
+	margin: 5px;
+}
