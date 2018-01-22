@@ -1,0 +1,150 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+/*roboto font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body, html {
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    min-height: 100%;
+}
+
+/*stil izbornika*/
+li {
+    padding: 15px;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+}
+
+.a_izbornik, a {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+li.active {
+    text-decoration: underline;
+}
+
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #C68E74;
+}
+
+.a_izbornik:hover {
+    color: #C68E74;
+}
+
+#loginout {
+    position: absolute;
+    right: 2%;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+/*header*/
+.business-header {
+    height: 50vh;
+    min-height: 300px;
+    background: url('../img/header.png') center right no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    height: 270px;
+}
+
+#loginpage {
+    background: url("../img/login.png") center right no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+
+#podnozje {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*stil za login formu*/
+.login_forma {
+    font-family: Roboto, sans-serif;
+    padding: 15px;
+    border: solid 2px #F8EDE3;
+    border-radius: 5px;
+    background-color: #F8EDE3;
+    opacity: 0.9;
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.login_submit {
+    font-family: Roboto, sans-serif;
+    width: 130px;
+}
+
+.login_text {
+    font-style: normal;
+    font-weight: bold;
+    color: #343A40;
+    padding: 10px;
+}
+
+.opis {
+    position: absolute;
+    top: 19%;
+    left: 19%;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+}
+
+/*media queries*/
+@media (max-width: 416px) {
+    .login_forma {
+        font-family: Roboto, sans-serif;
+        padding: 15px;
+        border: solid 2px #F8EDE3;
+        border-radius: 5px;
+        background-color: #F8EDE3;
+        opacity: 0.9;
+        width: 80%;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+    .opis {
+        position: absolute;
+        top: 12%;
+        left: 5%;
+        font-family: Roboto, sans-serif;
+        font-style: italic;
+    }
+}
+
+.calendar {
+    position: absolute;
+    top: 30%;
+}
+
+/*google map*/
+#contact_cont {
+    position: relative;
+    top: 15px;
+}
